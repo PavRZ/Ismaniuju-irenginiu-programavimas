@@ -14,11 +14,6 @@ service = Service(executable_path="C:\\Users\\Augustas\\Desktop\\STUDIJOS 2021\\
 
 # Options for chromedriver
 chrome_options = Options()
-# chrome_options.add_argument("--headless")  # Run Chrome in headless mode (without opening browser window)
-# chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration (may be necessary on some systems)
-# chrome_options.add_argument("--no-sandbox")  # Disable sandbox mode (may be necessary on some systems)
-
-
 
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
